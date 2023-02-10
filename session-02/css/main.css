@@ -1,0 +1,23 @@
+/*
+    session 2 Stylesheet
+    Author: Adrian Gould
+
+ */
+
+/* Target element(most general) */
+nav{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 128);
+}
+
+/* Specificity - more specific = higher priority */
+
+nav ul li a {
+    color: rgb(0,255,0);
+}
+
+div ul li a{
+    color: rgba(0,255,128,1);
+}
+/* Target ID(most precise) */
+/* Target Class(more specific) */
